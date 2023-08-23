@@ -1,4 +1,5 @@
 const HomePage = () => {
+  //starter pack cloned
   return (
     <div>
       <h1 className="text-4xl text-center my-10">Welcome To Watch Gallery</h1>
