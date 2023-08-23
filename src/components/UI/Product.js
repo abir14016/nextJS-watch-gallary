@@ -1,5 +1,5 @@
 import Link from "next/link";
-const Products = ({ product }) => {
+const Product = ({ product }) => {
   return (
     <div className="rounded-2xl h-[480px] flex flex-col items-start justify-between p-5 overflow-hidden shadow-md border border-gray-100 hover:shadow-2xl hover:scale-[102%] transition-all">
       <Link href={`/product/${product.id}`} className="w-full">
@@ -16,4 +16,4 @@ const Products = ({ product }) => {
   );
 };
 
-export default Products;
+export default Product;
